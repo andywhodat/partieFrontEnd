@@ -53,3 +53,37 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* New styles for the menu bar */
+.menu-bar {
+    margin-top: 20px; /* Add margin between the menu bar and the previous item */
+}
+
+.menu-bar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0;
+}
+
+.menu-bar ul li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add some spacing between menu items */
+}
+
+.menu-bar ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-size: 16px; /* Adjust the font size */
+}
+
+/* Style the Connexion button */
+.connexion-button {
+    background-color: #ff6600; /* Button background color */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.connexion-button a {
+    color: #fff; /* Text color for the button */
+    font-weight: bold; /* Bold text */
+    text-decoration: none; /* Remove underlines from the button */
+}
