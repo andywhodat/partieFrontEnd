@@ -31,6 +31,7 @@
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
+    "@vue/runtime-dom": "^3.3.11",
     "nodemon": "^2.0.7"
   }
 }
